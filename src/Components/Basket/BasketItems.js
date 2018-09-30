@@ -82,8 +82,8 @@ import data from "../fixtures.js";
                                 </div>
                                 <div className="promo__val">
                                     <div>Сумма заказа:<span></span><span>{this.state.globalVal} руб.</span></div>
-                                    <div>Промокод:<span></span><span>{this.state.promo}руб.</span></div>
-                                    <div>Всего:<span></span><span>{this.state.allval}руб.</span></div>
+                                    <div>Промокод:<span></span><span>{this.state.promo} руб.</span></div>
+                                    <div>Всего:<span></span><span>{this.state.allval} руб.</span></div>
                                 </div>
                             </div>
                         </div>

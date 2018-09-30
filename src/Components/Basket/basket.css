@@ -99,3 +99,21 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+@media (max-width:680px) {
+    .basket {
+        width: 100%;
+    }
+
+    .basket li img {
+        width: 80px;
+    }
+    .promo__action {
+        margin-right: 20px;
+    }
+    
+    .promo__val {
+        margin-left: 20px;
+    }
+}
