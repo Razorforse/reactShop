@@ -93,7 +93,9 @@ header {
     .contacts,
     .search,
     .section,
-    .subsection {
+    .subsection,
+    .contacts__item,
+    .search__item {
         padding: 20px;
         justify-content: center;
     }
