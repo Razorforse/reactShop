@@ -1,0 +1,93 @@
+:root {
+    --lite: 8px;
+    --medium: 14px;
+    --big: 26px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #e4e4e4;
+}
+
+.contacts,
+.search,
+.section,
+.subsection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 13% 0 13%;
+    align-items: center;
+    border: 1px solid  #dfdfdf;
+}
+
+.search {
+    background: #fff;
+}
+
+.section ul,
+.subsection ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+}
+
+.subsection ul {
+    padding: 0;
+}
+
+.section li,
+.subsection li{
+    padding: 7px;
+    padding-bottom: 15px;
+}
+
+.section li:hover,
+.subsection li:hover,
+.section li:focus,
+.subsection li:focus {
+    border-bottom: 3px solid #ff6c00;
+    padding-bottom: 12px;
+}
+
+.contacts__item,
+.search__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contacts__item  span,
+.contacts__item  div,
+.search__item img,
+.search__item div {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--medium);
+}
+
+.search__item .search__form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.search__item span {
+    padding-right: 30px;
+}
+
+.contacts__item  div img,
+.search__item div img {
+    padding: 0 10px 0 10px;
+}
+
+
+
