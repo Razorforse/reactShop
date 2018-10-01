@@ -88,11 +88,11 @@
 }
 
 .promo__action {
-    margin-right: 20%;
+    flex:1.5;
 }
 
 .promo__val {
-    margin-left: 20%;
+    flex:0.5;
 }
 
 .promo__val div {
@@ -101,7 +101,7 @@
 }
 
 
-@media (max-width:680px) {
+@media (max-width:910px) {
     .basket {
         width: 100%;
     }
@@ -110,10 +110,10 @@
         width: 80px;
     }
     .promo__action {
-        margin-right: 20px;
+        flex:1;
     }
     
     .promo__val {
-        margin-left: 20px;
+        flex:1;
     }
 }

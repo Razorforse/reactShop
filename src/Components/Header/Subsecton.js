@@ -1,14 +1,18 @@
 import React from 'react';
 
+let arr = ['Женская одежда','Мужская одежда','Аксессуары']
+
 class Subsection extends React.Component {
+
+    content(prop){
+        return prop.map((item,index)=><li><button>{prop[index]}</button></li>)
+    }
 
     render() {
         return(
             <div className="subsection">
                 <ul>
-                    <li><button>Женская одежда</button></li>
-                    <li><button>Мужская одежда</button></li>
-                    <li><button>Аксессуары</button></li>
+                     {this.content(arr)}
                 </ul>
             </div>
         )

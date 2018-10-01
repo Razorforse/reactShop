@@ -4,14 +4,13 @@ import React from 'react';
 
 class BasketItem extends React.Component {
 
-    constructor(props){    
-        super(props);
-        this.state = {
-        count:  1,
-        val: this.props.item.val,
-        open: true
-        }
+
+    state = {
+    count:  1,
+    val: this.props.item.val,
+    open: true
     }
+
 
 
     componentWillMount() {

@@ -89,13 +89,18 @@ header {
     padding: 0 10px 0 10px;
 }
 
-@media(max-width:800px) {
+@media(max-width:910px) {
     .contacts,
     .search,
     .section,
-    .subsection {
+    .subsection,
+    .contacts__item,
+    .search__item {
         padding: 20px;
         justify-content: center;
+    }
+    .search__item .search__form {
+        padding: 10px;
     }
 }
 
